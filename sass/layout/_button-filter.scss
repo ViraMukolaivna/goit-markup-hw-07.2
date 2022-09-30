@@ -20,8 +20,8 @@
     letter-spacing: var(--letter-spacing-normal);
     padding: 6px 22px;
     transition: color var(--transition-dur-and-func),
-        background-color var(--transition-dur-and-func),
-        box-shadow var(--transition-dur-and-func);
+    background-color var(--transition-dur-and-func),
+    box-shadow var(--transition-dur-and-func);
 
     &:hover,
     &:focus {
