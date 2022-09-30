@@ -355,7 +355,7 @@ body {
 }
 
 .modal__input_checkbox_link {
-  color: #212121;
+  color: var(--color-light-blue);
 }
 
 .checkbox_icon {
@@ -894,7 +894,7 @@ body {
 .button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 63;
+  line-height: 1.63;
   background-color: #F5F4FA;
   color: var(--color-dark);
   border-radius: 4px;
