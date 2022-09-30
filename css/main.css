@@ -80,6 +80,7 @@ body {
   background-color: var(--color-white);
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .header-container {
@@ -332,15 +333,12 @@ body {
 
 /* Чекбокс */
 .modal__form_checkbox_field {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: var(--letter-spacing-normal);
-  color: var(--color-light-grey);
   margin-bottom: 30px;
   display: flex;
   align-self: baseline;
   padding-left: 12px;
+  gap: 8px;
+  align-items: center;
 }
 
 .modal__input_checkbox {
@@ -357,8 +355,15 @@ body {
   border-radius: 2px;
   cursor: pointer;
   margin-right: 6px;
+  border: 2px solid #212121;
+  width: 16px;
+  height: 15px;
+  border-radius: 2px;
 }
 .modal__input_checkbox:focus + .modal__input_checkbox .checkbox_icon {
+  border-color: var(--color-light-blue);
+}
+.modal__input_checkbox:hover + .modal__input_checkbox .checkbox_icon {
   border-color: var(--color-light-blue);
 }
 .modal__input_checkbox:checked + .modal__input_checkbox .checkbox_icon {
@@ -370,6 +375,14 @@ body {
 }
 .modal__input_checkbox:checked + .checkbox_icon .checkbox__icon_mark {
   display: block;
+}
+
+.modal__input_agreement {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: var(--letter-spacing-normal);
+  color: var(--color-light-grey);
 }
 
 /* Кнопка прийняти */
@@ -613,7 +626,7 @@ body {
   width: 78px;
 }
 
-.hero__container {
+.hero {
   color: var(--color-white);
   font-family: var(--primary-font);
   padding-top: 200px;
@@ -893,10 +906,7 @@ body {
   border: none;
   text-align: center;
   letter-spacing: var(--letter-spacing-normal);
-  padding-left: 22px;
-  padding-right: 22px;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding: 6px 22px;
   transition: color var(--transition-dur-and-func), background-color var(--transition-dur-and-func), box-shadow var(--transition-dur-and-func);
 }
 .button:hover, .button:focus {
