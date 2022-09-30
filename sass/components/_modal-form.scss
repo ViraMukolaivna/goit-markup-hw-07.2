@@ -92,46 +92,39 @@
 }
 .modal__input_checkbox {
     appearance: none;
-    position: absolute;
+    position: absolute;}
     
-
+.modal__input_agreement {
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 1.71;
+     letter-spacing: var(--letter-spacing-normal);
+     color: var(--color-light-grey);
+}
 .modal__input_checkbox_link {
-    color: var(--color-light-blue);
+    color: #212121;
 }
 
 .checkbox_icon {
-width: 16px;
-    height: 15px;
-    border: 2px solid var(--color-dark);
-    border-radius: 2px;
     cursor: pointer;
     margin-right: 6px;
-    border: 2px solid #212121;
-        width: 16px;
-        height: 15px;
-        border-radius: 2px;
+    border: 2px solid var(--color-dark);
+    width: 16px;
+    height: 15px;
+    border-radius: 2px;
  
 .modal__input_checkbox:focus + & {
     border-color: var(--color-light-blue);}
-        .modal__input_checkbox:hover + & {
-            border-color: var(--color-light-blue);
-        }
 .modal__input_checkbox:checked + & {
       border-color: var(--color-light-blue);}
 }
-}
+
 .checkbox__icon_mark {
     display: none;
 .modal__input_checkbox:checked + .checkbox_icon & {
     display: block; }
 }
-.modal__input_agreement {
-    font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: var(--letter-spacing-normal);
-        color: var(--color-light-grey);
-}
+
 
 /* Кнопка прийняти */
 .modal__button {
