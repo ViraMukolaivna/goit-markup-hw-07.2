@@ -1,53 +1,7 @@
 
 /* ===============КОНСТАНТИ============================ */
-:root {
-    --primary-font: 'Roboto', sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
-    --color-white: #ffff;
-    --color-light-blue: #2196F3;
-    --color-dark-blue: #188CE8;
-    --color-dark: #212121;
-    --color-light-grey: #757575;
-    --color-dark-grey: #2F303A;
-    --letter-spacing-normal: 0.03em;
-    --color-social-icon: #AFB1B8;
-    --transition-dur-and-func: 250ms linear;
 
-}
-.link {
-    text-decoration: none;
-}
-.list {
-    list-style: none;
-}
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-button {
-    cursor: pointer;
-}
-h1,
-h2,
-h3,
-h4,
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-}
-.container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+
 
 /* =============СТУДІЯ============================= */
 
